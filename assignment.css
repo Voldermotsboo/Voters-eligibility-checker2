@@ -1,0 +1,91 @@
+*/{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 98.5vw;
+    height: 96vh;
+   overflow-y: hidden;
+}
+
+.nav-content{
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.voters-card{
+    position:absolute;
+    top: 150px;
+    background-image: url(./images/flag.jpg) ;
+    width: 400px;
+    height: 370px;
+    border: 10px;
+    border-radius: 30px;
+    display: flex;
+   justify-self: center;
+   box-shadow: black 8px 0px 8px 0px;
+   text-align: center;
+   color: black;
+   font-weight: 300;
+   padding: 10px;
+}
+h1{
+   color: black;
+  justify-items: center;
+}
+
+.name input{
+    border: black inset 5px;
+    padding: 5px;
+}
+
+.name{
+    margin-bottom: 20px;
+}
+
+.email input{
+    border: black inset 5px;
+    padding: 5px;
+}
+
+.email{
+    margin-bottom: 20px;
+}
+
+.age input{
+  border: black inset 5px;
+  padding: 5px;  
+}
+
+.age{
+    margin-bottom: 20px; 
+}
+
+button{
+    border: black 5px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: green;
+    font-weight: bold;
+    text-shadow: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) { 
+   img{
+    overflow-wrap: normal
+   }
+
+   .voters-card{
+    width: 350px;
+    height: 380px;
+   }
+
+    
+}

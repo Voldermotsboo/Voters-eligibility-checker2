@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assignment.css">
+    <title>VOTER'S ELIGIBILITY CHECKER</title>
+</head>
+<body>
+    <nav>
+        <div class="navigation-bar">
+             <div class="flag-image">
+                <img src="./images/flag.jpg" alt=>
+            <ul class="nav-content">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">My Applications</a></li>
+            <li><a href="#">Check Voters' Status</a></li>
+            <li><a href="#">Help</a></li>
+           </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="voters-card">
+        <main>
+            <div class="voting">
+                <div>
+                    <h1>VOTERS' ELIGIBILITY CHECKER</h1>
+                </div>
+                <hr>
+                <div class="voters-section">
+                <div class="name">
+                    <label style="display: block;" for="Name">NAME</label>
+                    <input type="text" placeholder="Obasi Angel">
+                </div>
+                 <div class="email">
+                    <label style="display: block;" for="Email">EMAIL</label>
+                    <input type="Email" placeholder="angieechisom@gmail.com">
+                </div>
+                 <div class="age">
+                    <label style="display: block;" for="Age">AGE</label>
+                    <input id="age" type="text" value="18">
+                </div>
+                <div>
+                    <button onclick="myFunction()">Check Eligibility</button>
+                </div>
+                <p id="log"></p>
+                </div>  
+            </div>
+        </main>
+
+        <script src="/assignment.js"></script>
+    </section>
+</body>
+</html>
